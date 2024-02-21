@@ -1,7 +1,8 @@
 import React from "react";
 function About() {
   return (
-    <section className="pt-md-11 pt-lg-16 col-12 d-flex align-items-center justify-content-center vh-100" id="about">
+    <section className="pt-md-11 pt-lg-16 col-12 d-flex align-items-center justify-content-center vh-100 " id="aboutpage">
+    <div className="container">
       <div className="container ">
         <div className="row align-items-center">
           <div className="col-12 col-md-5 px-12 col-lg-6 order-md-2 ml-auto">
@@ -16,13 +17,14 @@ function About() {
               Build a beautiful, modern website with flexible  components.
             </p>
             <div className="text-center text-md-start">
-              <a href="#projects" className="btn btn-primary shadow lift me-1">
+              <a href="#projectspage" className="btn btn-primary shadow lift me-1">
               projects <i className="fe fe-arrow-right d-none d-md-inline ms-3"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </section>
   );
 }
