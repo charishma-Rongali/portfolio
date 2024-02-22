@@ -1,19 +1,34 @@
 import React from "react";
 
+
 function Navbars() {
   return (
-    <div className="container">
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-        <span className="fs-4">CHARISHMA RONGALI</span>
-      </a>
-      <a href="#aboutpage" className="nav-link active" aria-current="page">About</a>
-      <a href="#projectspage" className="nav-link"> Projects</a>
-      <a href="#Certificatespage" className="nav-link">Certifications</a>
-      <a href="#contactpage" className="nav-link">contact</a>
-    </header>
-  </div>
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <a href="/" className="navbar-brand"  style={{ overflowWrap: 'break-word', maxWidth: '100vw' }}>CHARISHMA RONGALI</a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a href="#aboutpage" className="nav-link active" aria-current="page">About</a>
+            </li>
+            <li className="nav-item">
+              <a href="#projectspage" className="nav-link">Projects</a>
+            </li>
+            <li className="nav-item">
+              <a href="#Certificatespage" className="nav-link">Certificates</a>
+            </li>
+            <li className="nav-item">
+              <a href="#contactpage" className="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 }
+
 
 export default Navbars;

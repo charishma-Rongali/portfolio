@@ -1,8 +1,3 @@
-//React
-//React(opens new window) is a JavaScript library for building user interfaces. EmailJS works with all modern frameworks, and React is no exception.
-
-// Below we show how to create the contact form components, ContactUs.js:
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -27,21 +22,26 @@ const Contact = () => {
   };
 
   return (
-    <div id="contactpage" className="vh-100">
-    <div className='container'>
-    <div className=" d-flex flex-wrap justify-content-between " >
-    <form ref={form} onSubmit={sendEmail} className='col-12 col-md-5  col-lg-6 order-md-2 ml-auto d-flex align-items-center justify-content-center'>
-      <label>Name</label>
-      <input type="text" name="from_name" />
-      <label>Email</label>
-      <input type="email" name="from_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
-    </form>
-    </div>
-    </div>
-    </div>
+    <section id="contactpage">
+      <div className="container pt-5">
+        <div className="row align-items-center vh-75">
+          <div className="col-12 col-md-5 col-lg-6 order-md-1">
+            <img src="Images/myphoto.png" alt="contact_me" style={{ width: "100%", height: "auto" }} />
+          </div>
+          <div className="col-12 col-md-7 col-lg-6 order-md-2">
+            <form ref={form} onSubmit={sendEmail} className="my-form">
+              <label htmlFor="from_name">Name</label>
+              <input type="text" name="from_name" className="form-control mb-3" />
+              <label htmlFor="from_email">Email</label>
+              <input type="email" name="from_email" className="form-control mb-3" />
+              <label htmlFor="message">Message</label>
+              <textarea name="message" className="form-control mb-3" rows="5" />
+              <button type="submit" className="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 };
 
