@@ -9,15 +9,12 @@ import About from "./components/About";
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#FFC0CB ' }}>
+    <div style={{ backgroundColor: 'rgba(15, 23, 42, 0.98)' }}>
      <Navbars/>
      <hr></hr>
      <About/>
-     <hr></hr>
      <Projects/>
-     <hr></hr>
      <Certificates />
-     <hr></hr>
      <Contact />
    </div>
   );
