@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="d-flex align-items-center justify-content-center vh-100" id="aboutpage">
+    <div className="d-flex align-items-center justify-content-center" id="aboutpage">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-6 order-md-2">
@@ -27,7 +27,7 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
+       </div>
     </div>
   );
 }

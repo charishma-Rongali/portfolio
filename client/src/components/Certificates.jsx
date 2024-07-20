@@ -3,11 +3,10 @@ import { certificatedata } from "../Data";
 
 function Certificates() {
     return (
-        <section id="Certificatespage" className="vh-100">
+        <section id="Certificatespage">
             <div className="container">
                 <div className="col-12 order-md-1">
-                    <i class="fa-brands fa-html5 p-2"></i>
-                    <h1 className="text-center" style={{ color: 'white', fontFamily: "Lucida Console", fontSize: "1.5rem", fontStyle: "oblique", padding: "20px" }}>Certifications</h1>
+                    <h1 className="text-center" style={{ color: 'white', fontFamily: "arial", fontSize: "2 rem",padding: "20px" }}>Certifications</h1>
                 </div>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     {certificatedata.map((props) => (

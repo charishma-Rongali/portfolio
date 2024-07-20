@@ -3,12 +3,10 @@ import { projectdata } from "../Data";
 
 function Projects() {
     return (
-        <section id="projectspage" className="vh-100"> {/* Full height section */}
+        <section id="projectspage"> {/* Full height section */}
             <div className="container">
                 <div className="col-12 order-md-1">
-                    <h1 className="text-center" style={{ color: 'white', fontFamily: "Lucida Console", fontSize: "1.5rem", fontStyle: "oblique", padding: "20px" }}>
-                        Projects
-                    </h1>
+                <h1 className="text-center" style={{ color: 'white', fontFamily: "arial", fontSize: "2 rem",padding: "20px" }}>Projects</h1>
                 </div>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     {projectdata.map((project) => (

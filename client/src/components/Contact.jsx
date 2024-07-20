@@ -22,9 +22,13 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactpage" className="vh-100">
+    <section id="contactpage" >
       <div className="container pt-5">
         <div className="row align-items-center vh-75">
+        <div className="col-12 order-md-1">
+                    <i class="fa-brands fa-html5 p-2"></i>
+                    <h1 className="text-center" style={{ color: 'white', fontFamily: "arial", fontSize: "2 rem",padding: "20px" }}>Contact Me</h1>
+                </div>
           <div className="col-12 col-md-5 col-lg-6 order-md-1 "style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
             <img src="Images/contact.png" alt="contact_me" style={{ width: "80%", height: "auto" }} />
           </div>

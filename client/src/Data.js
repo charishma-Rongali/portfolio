@@ -3,7 +3,7 @@ const projectdata = [
         id: 1,
         title: "portfolio",
         image: "Images/portfolio_image.png",
-        desc: "this is my first interactive website",
+        desc: "A showcase of my web development projects built using ReactJS and Bootstrap, demonstrating my skills in creating responsive and dynamic web applications",
         project_link:"https://github.com/charishma-Rongali/portfolio.git"
     },
     {
