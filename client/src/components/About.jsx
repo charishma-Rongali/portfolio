@@ -3,7 +3,7 @@
   function About() {
     return (
       <div className="pt-md-3 pt-lg-16 col-12 d-flex align-items-center justify-content-center" id="aboutpage">
-        <div className="container">
+      <div className="container">
           <div className="row align-items-center">
             <div className="col-12 col-md-6 order-md-2">
               <img src="Images/charishma.png" className="img-fluid mb-4" alt="my_image" />
