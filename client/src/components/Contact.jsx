@@ -22,7 +22,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contactpage">
+    <section id="contactpage" className="vh-100">
       <div className="container pt-5">
         <div className="row align-items-center vh-75">
           <div className="col-12 col-md-5 col-lg-6 order-md-1 "style={{display:"flex",justifyContent:"center",alignItems:"center"}}>

@@ -3,7 +3,7 @@ import { certificatedata } from "../Data";
 
 function Certificates() {
     return (
-        <section id="Certificatespage">
+        <section id="Certificatespage" className="vh-100">
             <div className="container">
                 <div className="col-12 order-md-1">
                     <i class="fa-brands fa-html5 p-2"></i>
